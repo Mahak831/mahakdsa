@@ -1,0 +1,204 @@
+⭐ DAY 1 — ARRAYS (Core Revision)
+1. Two Sum
+
+🔗 https://leetcode.com/problems/two-sum/
+
+🔗 https://www.geeksforgeeks.org/two-sum-problem/
+
+2. 3Sum
+
+🔗 https://leetcode.com/problems/3sum/
+
+🔗 https://www.geeksforgeeks.org/3-sum-find-unique-triplets-given-array-sum-zero/
+
+3. 4Sum
+
+🔗 https://leetcode.com/problems/4sum/
+
+🔗 https://www.geeksforgeeks.org/find-four-numbers-with-sum-equal-to-given-sum/
+
+4. Kadane’s Algorithm (Maximum Subarray)
+
+🔗 https://leetcode.com/problems/maximum-subarray/
+
+🔗 https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+
+5. Merge Intervals
+
+🔗 https://leetcode.com/problems/merge-intervals/
+
+🔗 https://www.geeksforgeeks.org/merging-intervals/
+
+6. Next Permutation
+
+🔗 https://leetcode.com/problems/next-permutation/
+
+🔗 https://www.geeksforgeeks.org/next-permutation/
+
+7. Rotate Array
+
+🔗 https://leetcode.com/problems/rotate-array/
+
+🔗 https://www.geeksforgeeks.org/array-rotation/
+
+8. Set Matrix Zeroes
+
+🔗 https://leetcode.com/problems/set-matrix-zeroes/
+
+🔗 https://www.geeksforgeeks.org/a-boolean-matrix-question/
+
+⭐ DAY 2 — STRINGS (Most Asked Revision)
+1. Valid Anagram
+
+🔗 https://leetcode.com/problems/valid-anagram/
+
+🔗 https://www.geeksforgeeks.org/check-whether-two-strings-are-anagram-of-each-other/
+
+2. Group Anagrams
+
+🔗 https://leetcode.com/problems/group-anagrams/
+
+🔗 https://www.geeksforgeeks.org/given-a-sequence-of-words-print-all-anagrams-together/
+
+3. Longest Palindromic Substring
+
+🔗 https://leetcode.com/problems/longest-palindromic-substring/
+
+🔗 https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/
+
+4. Longest Common Prefix
+
+🔗 https://leetcode.com/problems/longest-common-prefix/
+
+🔗 https://www.geeksforgeeks.org/longest-common-prefix-set-1-word-by-word-matching/
+
+5. Reverse Words in a String
+
+🔗 https://leetcode.com/problems/reverse-words-in-a-string/
+
+🔗 https://www.geeksforgeeks.org/reverse-words-in-a-given-string/
+
+6. Implement strStr() [KMP]
+
+🔗 https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
+
+🔗 https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/
+
+7. Check if Strings are Rotation
+
+🔗 https://www.geeksforgeeks.org/check-if-a-string-is-rotation-of-another-string/
+
+⭐ DAY 3 — TWO POINTER + SLIDING WINDOW
+👉 Two Pointer
+1. Remove Duplicates from Sorted Array
+
+🔗 https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+
+2. Container With Most Water
+
+🔗 https://leetcode.com/problems/container-with-most-water/
+
+🔗 https://www.geeksforgeeks.org/container-with-most-water/
+
+3. Trapping Rain Water
+
+🔗 https://leetcode.com/problems/trapping-rain-water/
+
+🔗 https://www.geeksforgeeks.org/trapping-rain-water/
+
+👉 Sliding Window
+4. Longest Substring Without Repeating Characters
+
+🔗 https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
+🔗 https://www.geeksforgeeks.org/length-of-the-longest-substring-without-repeating-characters/
+
+5. Minimum Window Substring
+
+🔗 https://leetcode.com/problems/minimum-window-substring/
+
+🔗 https://www.geeksforgeeks.org/minimum-window-subsequence/
+
+6. Longest Repeating Character Replacement
+
+🔗 https://leetcode.com/problems/longest-repeating-character-replacement/
+
+7. Sliding Window Maximum
+
+🔗 https://leetcode.com/problems/sliding-window-maximum/
+
+🔗 https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/
+
+⭐ DAY 4 — LINKED LIST (Core Patterns)
+1. Reverse Linked List
+
+🔗 https://leetcode.com/problems/reverse-linked-list/
+
+🔗 https://www.geeksforgeeks.org/reverse-a-linked-list/
+
+2. Middle of the Linked List
+
+🔗 https://leetcode.com/problems/middle-of-the-linked-list/
+
+3. Detect Cycle in Linked List
+
+🔗 https://leetcode.com/problems/linked-list-cycle/
+
+🔗 https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/
+
+4. Remove Cycle
+
+🔗 https://www.geeksforgeeks.org/remove-loop-linked-list/
+
+5. Merge Two Sorted Lists
+
+🔗 https://leetcode.com/problems/merge-two-sorted-lists/
+
+🔗 https://www.geeksforgeeks.org/merge-two-sorted-linked-lists/
+
+6. Add Two Numbers (LL)
+
+🔗 https://leetcode.com/problems/add-two-numbers/
+
+7. Reverse Nodes in k-Group
+
+🔗 https://leetcode.com/problems/reverse-nodes-in-k-group/
+
+8. Intersection of Two Linked Lists
+
+🔗 https://leetcode.com/problems/intersection-of-two-linked-lists/
+
+⭐ DAY 5 — STACK & QUEUE (Interview Classics)
+1. Valid Parentheses
+
+🔗 https://leetcode.com/problems/valid-parentheses/
+
+🔗 https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/
+
+2. Min Stack
+
+🔗 https://leetcode.com/problems/min-stack/
+
+3. Implement Queue Using Stacks
+
+🔗 https://leetcode.com/problems/implement-queue-using-stacks/
+
+4. Next Greater Element
+
+🔗 https://leetcode.com/problems/next-greater-element-i/
+
+🔗 https://www.geeksforgeeks.org/next-greater-element/
+
+5. Daily Temperatures
+
+🔗 https://leetcode.com/problems/daily-temperatures/
+
+6. Sliding Window Maximum
+
+🔗 https://leetcode.com/problems/sliding-window-maximum/
+
+(already done but revise again — very important)
+
+7. Evaluate Reverse Polish Notation
+
+🔗 https://leetcode.com/problems/evaluate-reverse-polish-notation/
