@@ -70,6 +70,29 @@ class Solution {
 2. Group Anagrams
 
 🔗 https://leetcode.com/problems/group-anagrams/
+class Solution {
+    public List<List<String>> groupAnagrams(String[] strs) {
+        Map<String,List>mp=new HashMap<>();
+        for(String s :strs){
+            int [] count=new int[26];
+            for(char c: s.toCharArray()){
+            count[c-'a']++;
+            }
+            StringBuilder str=new StringBuilder();
+               for(int i:count){
+                str.append("#");
+                str.append(i);
+               }
+               String sm=str.toString();
+               if(!mp.containsKey(sm)){
+                mp.put(sm,new ArrayList<String>());
+               }
+               mp.get(sm).add(s);
+
+        }
+        return new ArrayList(mp.values());
+    }
+}
 
 🔗 https://www.geeksforgeeks.org/given-a-sequence-of-words-print-all-anagrams-together/
 
