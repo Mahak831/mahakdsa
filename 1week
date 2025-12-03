@@ -99,6 +99,33 @@ class Solution {
 3. Longest Palindromic Substring
 
 🔗 https://leetcode.com/problems/longest-palindromic-substring/
+class Solution {
+    String find(String s,int i,int j){
+        while(i>=0 && j<s.length() && s.charAt(i)==s.charAt(j)){
+            i--;
+            j++;
+        }
+        return s.substring(i+1,j);
+    }
+    public String longestPalindrome(String s) {
+        int start =0;
+        String  maxlen=s.substring(0,1);
+
+        for(int i=0;i<s.length();i++){
+         String even=find(s,i,i+1);
+         String odd=find(s,i-1,i+1);
+      if(even.length()>maxlen.length()){
+        maxlen=even;
+      }
+      if(odd.length()>maxlen.length()){
+        maxlen=odd;
+      }
+
+           
+        }
+        return maxlen;
+    }
+}
 
 🔗 https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/
 
