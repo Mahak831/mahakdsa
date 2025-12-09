@@ -548,6 +548,61 @@ return head;
 8. Intersection of Two Linked Lists
 
 🔗 https://leetcode.com/problems/intersection-of-two-linked-lists/
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) {
+ *         val = x;
+ *         next = null;
+ *     }
+ * }
+ */
+public class Solution {
+    int find(ListNode head){
+        if(head==null){
+            return 0;
+        }
+        int cnt=0;
+        while(head!=null){
+       cnt++;
+       head=head.next;
+        }
+        return cnt;
+    }
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+       int len1=find(headA);
+       int len2=find(headB);
+       while(headA!=null || headB!=null){
+       while(len1>len2){
+        headA=headA.next;
+        len1--;
+       }
+       while(len1<len2){
+        headB=headB.next;
+        len2--;
+       }
+       while(headA!=null && headB!=null){
+        if(headA==headB){
+            return headA;
+        }
+        headA=headA.next;
+        headB=headB.next;
+
+       }
+
+
+
+       }
+       return null;
+
+
+
+
+        
+    }
+}
 
 ⭐ DAY 5 — STACK & QUEUE (Interview Classics)
 1. Valid Parentheses
