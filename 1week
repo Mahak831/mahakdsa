@@ -743,5 +743,34 @@ class Solution {
 (already done but revise again — very important)
 
 7. Evaluate Reverse Polish Notation
+class Solution {
+    public int evalRPN(String[] tokens) {
+        Stack<Integer>st=new Stack<>();
+        for(String t : tokens){
+            if(t.equals("+") || t.equals("-") || t.equals("*") || t.equals("/")){
+            int a=st.pop();
+            int b=st.pop();
+            switch(t){
+                case "+" :st.push(a+b);
+                break;
+                case "-": st.push(b-a);
+                                break;
 
+                case "*" : st.push(a*b);
+
+                                break;
+
+                case "/": st.push(b/a);
+                                break;
+
+
+            }}
+            else{
+                st.push(Integer.parseInt(t));
+            
+            }
+        }
+        return st.pop();
+    }
+}
 🔗 https://leetcode.com/problems/evaluate-reverse-polish-notation/
