@@ -608,6 +608,25 @@ public class Solution {
 1. Valid Parentheses
 
 🔗 https://leetcode.com/problems/valid-parentheses/
+class Solution {
+    public boolean isValid(String s) {
+        Map<Character,Character>mp=Map.of(
+            ')','(',
+            '}','{',
+            ']','['
+        );
+        Stack<Character>st=new Stack();
+        for(char c: s.toCharArray()){
+            if(!mp.containsKey(c)){
+                st.push(c);
+            }else if(st.isEmpty() || st.pop()!=mp.get(c)){
+                return false;
+            }
+
+        }
+        return st.isEmpty();
+    }
+}
 
 🔗 https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/
 
