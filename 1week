@@ -712,6 +712,29 @@ st.push(nums2[i]);
 5. Daily Temperatures
 
 🔗 https://leetcode.com/problems/daily-temperatures/
+class Solution {
+    public int[] dailyTemperatures(int[] temp) {
+        Stack<Integer>st=new Stack<>();
+     int [] ans=new int [temp.length];
+     int cnt=0;
+        for(int i=temp.length-1;i>=0;i--){
+          while(!st.isEmpty() && temp[st.peek()]<=temp[i]){
+            st.pop();
+          }
+          if(st.isEmpty()){
+            ans[i]=0;
+          }
+          else {
+            ans[i]=st.peek()-i;
+          }
+
+          st.push(i);
+
+
+        }
+        return ans;
+    }
+}
 
 6. Sliding Window Maximum
 
